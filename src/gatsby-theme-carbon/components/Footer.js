@@ -14,6 +14,7 @@ const links = {
     { href: 'https://github.com/stevemar/open-source-cloud-guide-carbon', linkText: 'Carbon' }  ]
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+// remove the IBM logo
+const CustomFooter = () => <Footer links={links} Content={Content} Logo="Blah"/>;
 
 export default CustomFooter;
