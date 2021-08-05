@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/open-source-cloud-guide-carbon",
   siteMetadata: {
     title: "Gatsby Theme Carbon",
     description: "A Gatsby theme for the carbon design system",

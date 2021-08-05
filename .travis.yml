@@ -8,7 +8,7 @@ stages:
 
 script:
   # Test a production build on PR builds and main merges
-  - yarn build:clean
+  - yarn build:prefix
 
 deploy:
   provider: pages
