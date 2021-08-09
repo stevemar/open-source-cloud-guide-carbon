@@ -1,3 +1,6 @@
+- title: About this guide
+  pages:
+    - path: /about
 - title: Guides
   pages:
     - title: Containers
