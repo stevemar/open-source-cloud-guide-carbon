@@ -10,9 +10,8 @@ const FirstLeftText = () => <p>Goals of the Guide</p>;
 const FirstRightText = () => (
   <p>
     <ol>
-      <li>1. Comprehensive collection of learnings for open hybrid cloud developers</li>
-      <li>2. Content that is agnostic of leading public clouds</li>
-      <li>3. Solutions and content focused on solving use cases that are common to developers</li>
+      <li>1. Comprehensive learning for hybrid cloud and multicloud developers.</li>
+      <li>2. An agnostic view of how various clouds are using open source in their offerings.</li>
     </ol>
   </p>
 );
