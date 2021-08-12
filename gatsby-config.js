@@ -2,6 +2,7 @@ module.exports = {
   pathPrefix: "/open-source-cloud-guide-carbon",
   siteMetadata: {
     title: "Open Source Cloud Guide",
+    description: "Open Source Cloud Guide",
     keywords: "open source,cloud",
   },
   plugins: [
