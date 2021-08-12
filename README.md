@@ -10,4 +10,4 @@ Create a PR!
 
 ## Where can I view the guide?
 
-<stevemar.github.io/open-source-cloud-guide-carbon/>
+<https://stevemar.github.io/open-source-cloud-guide-carbon>
