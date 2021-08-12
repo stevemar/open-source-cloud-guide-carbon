@@ -20,7 +20,7 @@ const SecondLeftText = () => <p>O'Reilly survey</p>;
 
 const SecondRightText = () => (
   <p>
-    Developers who want to develop cloud applications should work on honing their OSS skills (which underly every major cloud platform) instead of only focusing on building skills for a proprietary cloud.
+    <i>Developers who want to develop cloud applications should work on honing their OSS skills (which underly every major cloud platform) instead of only focusing on building skills for a proprietary cloud.</i>
     <a
       className={calloutLink}
       href="https://developer.ibm.com/blogs/oreilly-open-source-skill-survey-blog">
