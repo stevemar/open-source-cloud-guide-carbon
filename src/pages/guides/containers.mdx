@@ -1,49 +1,68 @@
 ---
 title: Containers
 description: Guide for open source container services on the cloud.
-date: 09 August 2021
+date: 03 September 2021
 ---
 
 ## What are containers?
 
-Containers are one of the main drivers of open hybrid cloud and multicloud environments [development]. Linux containers offer a way to package and isolate an application and its entire runtime environment. They act as a form of virtualization for your operating system. 
+Containers provide a method to encapsulate code, binaries, libraries, and runtimes. They act as a form of virtualization for an operating system. Containers are run on container orchestrators that provide the scheduling and high availability benefits. The most commonly used containers and container orchestrators are built on open source software, more on this below.
 
-_EM: what makes them suitable for cloud environments? I was thinking of things like scalability, speed, and portability (Are those terms triggering you for marketing speak??). What else? They don't require you to own a whole virtualization suite of tools. . . they enable choice b/c you can run your containers/container plaform on any cloud, etc . . . . Another way to reframe this and to cover some key topics is to ask: WHat problems do containers solve?_
+## Why are containers important in a cloud setting?
 
-## Why do containers matter in an open source cloud?
+Containers are one of the main drivers of modern software development and designing applications for clouds in general. However, containers become more important in a hybrid cloud or multicloud setting where consistency and repeatability are key.
 
-_EM: I'm torn on including these here in the guide or do we just reference them from the blog that points to the guide?
+## Why should developers learn about containers?
+
+Our O'Reilly survey showed that nearly 70% of respondants indicated containers are either extremely or very important to their career growth. With only 10% of respondants indicating that containers are not important.
 
 ![survey results](images/survey-containers.png)
 
+There were similar results when asked about Kubernetes.
+
 ![survey results](images/survey-kubernetes.png)
 
-## Solution sketch
+<!-- _EM: what makes them suitable for cloud environments? I was thinking of things like scalability, speed, and portability (Are those terms triggering you for marketing speak??). What else? They don't require you to own a whole virtualization suite of tools. . . they enable choice b/c you can run your containers/container plaform on any cloud, etc . . . . Another way to reframe this and to cover some key topics is to ask: WHat problems do containers solve?_ -->
 
-_EM: I noticed this in Dr. Max's version. I'm wondering if you think this is necessary? LIke to set up an image of an ideal container environment? Is there such a thing as an ideal container environment?_
+<!-- ## Solution sketch
 
-## Limitations
+_EM: I noticed this in Dr. Max's version. I'm wondering if you think this is necessary? LIke to set up an image of an ideal container environment? Is there such a thing as an ideal container environment?_ -->
 
-_EM: Anything to highlight here?_
+<!-- ## Limitations
+
+_EM: Anything to highlight here?_ -->
 
 ## Key open source projects
 
-Some key open source projects and communities that have large, active developer [contributor] communities include:
+### Containers
 
-* Kubernetes
-* Quay
-* Docker
+|  | Current release | Release date | Governing body |
+| - | - | - | - |
+| [Podman](https://podman.io/) | v.3.3.0 | 4 June 2018 | TBD |
+
+### Container Orchestrators
+
+|  | Current release | Release date | Governing body |
+| - | - | - | - |
+| [Kubernetes](https://kubernetes.io) | 1.21 | 7 June 2014 | [CNCF](https://www.cncf.io/) |
+
+#### Container Registry
+
+|  | Current release | Initial release | Governing body |
+| - | - | - | - |
+| [Quay](https://www.projectquay.io/) | 3.5.2 | TBD | TBD |
 
 ## Cloud comparision
 
-| IBM Cloud | GCP | AWS | Azure |
-| - | - | - | - |
-| IKS | GKE | EKS | AKS |
+|  | IBM Cloud | GCP | AWS | Azure |
+| - | - | - | - | - |
+| Kubernetes service | IKS | GKE | EKS | AKS |
+| Supported versions | 1.18 - 1.21 | TBD | TBD | TBD |
+| Container runtime | containerd | Docker, containerd | Docker, containerd | Docker, containerd |
+| Container registry | based on Quay | TBD | TBD | TBD |
 
-_EM: DO they only have Kubernetes services? We probably want to have links and full names. Do any of them use Docker? Do we want to highlight underlying Kubernetes ecocystem projects that these clouds use?_
+## Additional learning
 
-## References
-_EM: Let's list additional resources where people can learn more. Skills network courses, LF or CNCF learning paths and such_
-
-* [Kubernetes](https://kubernetes.io)
-
+* [CNCF: Certification and Training](https://www.cncf.io/certification/training)
+* [CognitiveClass.ai: Introduction to Containers, Kubernetes, and OpenShift](https://cognitiveclass.ai/courses/kubernetes-course)
+* [LinuxFoundation: Certification and Training](https://training.linuxfoundation.org/full-catalog/?_sft_topic_area=cloud-containers)

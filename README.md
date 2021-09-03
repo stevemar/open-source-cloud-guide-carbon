@@ -1,8 +1,6 @@
 # Open Source Cloud Guide
 
-## What is this?
-
-A guide, about open source software being used at major CSPs.
+A guide, about how open source software.
 
 ## Mission statement
 
@@ -11,6 +9,18 @@ Our goal is to convince the reader that open source software is essential to bui
 ## Background
 
 The rise of cloud computing was built off of open source projects, and open source projects are essential for building cloud applications.
+
+## Who is this for?
+
+Largely, this guide is for software developers and technical folks wanting to know the landscape of open source software and their prevelance at major cloud providers.
+
+## What is this not?
+
+This guide will not:
+
+* Deep-dive on any one technology.
+* Exclude any cloud providers.
+* Be an exhaustive list of all open source projects in the space.
 
 ## Updating pages
 
