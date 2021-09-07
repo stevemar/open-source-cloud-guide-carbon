@@ -14,13 +14,23 @@ Containers are one of the main drivers of modern software development and design
 
 ## Why should developers learn about containers?
 
+<Row>
+<Column colSm={6} colLg={6}>
+
 Our O'Reilly survey showed that nearly 70% of respondants indicated containers are either extremely or very important to their career growth. With only 10% of respondants indicating that containers are not important.
 
 ![survey results](images/survey-containers.png)
 
+</Column>
+<Column colSm={6} colLg={6}>
+
 There were similar results when asked about Kubernetes.
 
 ![survey results](images/survey-kubernetes.png)
+
+</Column>
+</Row>
+
 
 <!-- _EM: what makes them suitable for cloud environments? I was thinking of things like scalability, speed, and portability (Are those terms triggering you for marketing speak??). What else? They don't require you to own a whole virtualization suite of tools. . . they enable choice b/c you can run your containers/container plaform on any cloud, etc . . . . Another way to reframe this and to cover some key topics is to ask: WHat problems do containers solve?_ -->
 
@@ -60,6 +70,39 @@ _EM: Anything to highlight here?_ -->
 | Supported versions | 1.18 - 1.21 | TBD | TBD | TBD |
 | Container runtime | containerd | Docker, containerd | Docker, containerd | Docker, containerd |
 | Container registry | based on Quay | TBD | TBD | TBD |
+
+<Tabs>
+
+    <Tab label="IBM Cloud">
+    * **Kubernetes service**: IKS
+    * **Supported versions**: 1.18 - 1.21
+    * **Container runtime**: containerd
+    * **Container registry**: based on Quay
+    </Tab>
+
+    <Tab label="GCP">
+    * **Kubernetes service**: GKE
+    * **Supported versions**: TBD
+    * **Container runtime**: Docker, containerd
+    * **Container registry**: TBD
+    </Tab>
+
+    <Tab label="AWS">
+    * **Kubernetes service**: EKS
+    * **Supported versions**: TBD
+    * **Container runtime**: Docker, containerd
+    * **Container registry**: TBD
+    </Tab>
+
+    <Tab label="Azure">
+    * **Kubernetes service**: AKS
+    * **Supported versions**: TBD
+    * **Container runtime**: Docker, containerd
+    * **Container registry**: TBD
+    </Tab>
+
+</Tabs>
+
 
 ## Additional learning
 
