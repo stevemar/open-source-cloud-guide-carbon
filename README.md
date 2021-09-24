@@ -49,8 +49,10 @@ Requirement:
 Build the pages
 
 ```bash
-yarn build:prefix
+yarn build
 ```
+
+> NOTE: When deploying make use of gatby's `--prefix-paths` option by building with: `yarn build:prefix`
 
 View the site
 
