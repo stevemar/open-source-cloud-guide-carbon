@@ -1,14 +1,19 @@
 - title: About this guide
   pages:
     - path: /about
-- title: Guides
-  pages:
-    - title: Containers
-      path: /guides/containers
-    - title: Databases
-      path: /guides/databases
-    - title: Artificial Intelligence
-      path: /guides/ai
 - title: Definitions
   pages:
     - path: /definitions
+  hasDivider: true
+- title: Guides
+  pages:
+    - path: /about
+- title: Containers
+  pages:
+    - path: /guides/containers
+- title: Databases
+  pages:
+    - path: /guides/databases
+- title: Artificial Intelligence
+  pages:
+    - path: /guides/ai

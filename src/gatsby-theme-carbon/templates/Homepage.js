@@ -3,36 +3,37 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 
-import Carbon from '../../images/carbon.jpg';
+import Banner from '../../images/banner.jpg';
 
-const FirstLeftText = () => <p>Goals of the Guide</p>;
+const FirstLeftText = () => <p>About this guide
+  <a className={calloutLink}
+      href="/about">
+      See the about page →
+  </a>
+</p>;
 
 const FirstRightText = () => (
-  <p>
-    <ol>
-      <li>1. Comprehensive learning for hybrid cloud and multicloud developers.</li>
-      <li>2. An agnostic view of how various clouds are using open source in their offerings.</li>
-    </ol>
-  </p>
+  <p> This guide will provide comprehensive learning for hybrid cloud and multicloud developers.
+  As well as an agnostic view of how various clouds are using open source in their offerings.</p>
 );
 
-const SecondLeftText = () => <p>O'Reilly survey</p>;
+const SecondLeftText = () => <p>O'Reilly survey
+<a className={calloutLink}
+      href="https://developer.ibm.com/blogs/oreilly-open-source-skill-survey-blog">
+      Read the full survey →
+  </a>
+</p>;
 
 const SecondRightText = () => (
   <p>
     <i>Developers who want to develop cloud applications should work on honing their OSS skills (which underly every major cloud platform) instead of only focusing on building skills for a proprietary cloud.</i>
-    <a
-      className={calloutLink}
-      href="https://developer.ibm.com/blogs/oreilly-open-source-skill-survey-blog">
-      O'Reilly survey →
-    </a>
   </p>
 );
 
 const BannerText = () => <h1>Open Source Cloud Guide</h1>;
 
 const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
+  Banner: <HomepageBanner renderText={BannerText} image={Banner} />,
   FirstCallout: (
     <HomepageCallout
       backgroundColor="#030303"
