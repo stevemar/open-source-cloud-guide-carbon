@@ -1,1 +1,59 @@
 // This is where your application styles could go.
+a {
+  text-decoration: none;
+}
+h2 a {
+  color: #49A3F8 !important;
+}
+a svg {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile{
+  margin-left: 24.24%
+}
+.bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile,
+.bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile:hover, {
+  background-image: linear-gradient(to right, #357AF6, #357AF6, #9A5ACB) !important;
+}
+.bx--feature-card.homepage-feature .bx--aspect-ratio--2x1::before {
+  padding-top: 30%;
+}
+#main-content > .bx--grid:nth-of-type(4) {
+  background-image: linear-gradient(to right, #357AF6, #357AF6, #9A5ACB) !important;
+}
+#main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
+  max-width: 300px;
+}
+#main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf a {
+  text-decoration: underline;
+}
+.stats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.stats:first-of-type {
+  margin-top: 4rem;
+}
+.stats .percentage {
+  font-size: 64px;
+  font-weight: 600;
+  margin-right: 3rem;
+}
+.stats .desc {
+  font-size: 1.5rem;
+}
+.bx--grid.Main-module--main--24PSV img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+.bx--grid.Main-module--main--24PSV p {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
