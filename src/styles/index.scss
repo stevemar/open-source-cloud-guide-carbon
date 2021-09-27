@@ -57,3 +57,39 @@ a svg {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 42rem) {
+  .bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile{
+    margin-left: 0;
+  }
+  .Banner-module--grid--1aCPQ {
+    height: 100%;
+    max-height: none !important;
+  }
+  .bx--feature-card__link > .bx--row:nth-of-type(1) {
+    max-height: 500px;
+  }
+  #main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
+    max-width: none;
+  }
+}
+@media screen and (max-width: 28rem) {
+  .stats{
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 42rem) and (max-width: 58rem) {
+  h1 {
+    margin-bottom: 12rem;
+  }
+}
+@media screen and (min-width: 42rem) and (max-width: 66rem) {
+  #main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
+    max-width: 90%;
+  }
+  .stats{
+    display: block;
+  }
+}
