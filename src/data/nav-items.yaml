@@ -17,3 +17,9 @@
 - title: Artificial Intelligence
   pages:
     - path: /guides/ai
+- title: APIs
+  pages:
+    - path: /guides/serving-apis
+- title: Teaming
+  pages:
+    - path: /guides/teaming
