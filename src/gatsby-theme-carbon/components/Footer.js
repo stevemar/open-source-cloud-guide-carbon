@@ -11,7 +11,7 @@ const Content = ({ buildTime }) => (
 
 const links = {
   firstCol: [
-    { href: 'https://github.com/stevemar/open-source-cloud-guide-carbon', linkText: 'Carbon' }  ]
+    { href: 'https://github.com/stevemar/open-source-cloud-guide-carbon', linkText: 'GitHub' }  ]
 };
 
 // remove the IBM logo

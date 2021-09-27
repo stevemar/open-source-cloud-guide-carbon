@@ -1,0 +1,103 @@
+---
+title: Team coordination, development, test, and DevOps
+description: Guide for open source AI services on the cloud
+date: 15 August 2021
+---
+
+## Problem
+
+Are there comprehensive cloud development environment for entire team? This means cloud tooling to allow developers to go from code, to test, to production, and continuous integration and delivery in an integrated fashion. In other words, a one stop shop for entire lifecycle of cloud software development.
+
+### Why is this Important for Hybrid Cloud Developers?
+
+Hybrid cloud developers need to have cloud environments with services and tools that will facilitate and assist their hybrid and multicloud use. Let’s explore these needs and top priorities. We can list five.
+
+#### 1. Streamline development
+
+Modern cloud development requires creating not only code but various associated artifacts: deployment manifests, declarative files, image manifests, and more. And that’s for one service. 
+
+A complete application might include dozens of services. When developing, testing, and deploying these services across clouds, the complexity of development increases. 
+
+This is why tools for streamlining hybrid cloud development quickly become a high priority for developers. And even more so when these developers are part of larger teams with even more complex deliverables.
+
+#### 2. Standardize tooling for all team members
+
+In order to simplify and streamline development, it is typical for team members to agree on a set of standardize tools. For instance, there is a series of open source software tools that help simplify development. This goes beyond the basic tooling for editing code but also include various tools to build, deploy, and verify code at different stages of the development cycle.
+
+For instance, for image building the `ko` OSS tool from Google allows developers to quickly build snapshot images of their code and use them in personal or shared image repositories. The `git` and `github` toolset have become the defacto code management system for OSS with private and paid-for versions available in different clouds. Finally, OSS code linters, CLA checks, and formatting abound for different languages [TODO: add links to survey].
+
+#### 3. Repetitive, simple, steps
+
+When setting up an open hybrid cloud team with a process for their work it’s important to consider the repetitive simple steps that developers have to do all the time. These can be automated but more importantly they need to remain simple and easy. For instance, opening and tracking issues, reviewing code, committing code, on boarding new members, and so on. Any tooling that can facilitate these steps and overall processes are a must.
+
+#### 4. Ease automation, e.g., CI/CD
+
+Once the process and tooling has been decided and standardize the next problem that an open hybrid cloud development team would want to tackle is automation. This means having cloud tooling to setup repetitive tasks in a fashion that automates the process steps that recur. For example, nightly build of entire products and running integration tests with results on a dashboard visible to everyone in the team. 
+
+Taking this automation deeper might involve running tests on every commits to projects, tracking new contributions in OSS projects to require CLA signing and recommending first good issues, in addition to more complex deep integrations into existing enterprise process. For instance, to track open issues and tickets on released products and helping triage and follow up on resolutions.
+
+#### 5. Same tool on different clouds
+
+## Solution Sketch
+
+* Many clouds have tooling for automation, e.g., CI/CD
+* Integrated Development Environments (IDEs) plugins for deployment
+* Image registry management
+* Online development environment
+* [Not useful for all developers. But good for regulated devs]
+
+### Constraints / Limitations
+
+* Integrated tool may simplify development
+* Multiple separate tools are sometimes better than one integrated
+* Third party tools can be as good as those from cloud provider
+* …
+
+### Key OSS Techs
+
+* Knative for serverless
+* Tekton for CI/CD
+* …
+
+### Example Cloud(s)
+
+* Every cloud provider provide a level of tooling
+* Not trying to compare them but rather highlight a few
+* Comprehensive survey is out of scope
+
+#### Azure
+
+* VSCode is OSS IDE from Microsoft
+* Plugin architecture to allow integration with any cloud service
+* Comes packaged with tooling to simplify deployment, integration, e.g., GitHub for code and automation
+
+#### IBM Cloud
+
+* Code Engine is a comprehensive Serverless online tool
+	- create and manage serverless services
+	- automate service lifecycle with rest of development
+	- schedule jobs and consume events to trigger jobs
+* CI/CD (based on Tekton) to automate your cloud code
+
+### RH OpenShift
+* ODO
+* …
+
+## Where to Find More?
+
+### Blogs
+
+* Getting Started with Azure: https://azure.microsoft.com/en-us/get-started/
+* Getting Stared with Code Engine: https://cloud.ibm.com/docs/codeengine
+* Code Engine Dev Setup in 6 Steps: https://dev.to/ibmdeveloper/ibm-cloud-code-engine-dev-setup-in-6-easy-steps-j8f
+
+### Videos
+
+* Code to Cloud with VSCode: https://youtu.be/zx-rXxvbdyM
+* Azure Cloud Shell: https://youtu.be/pB_xjSg7fcQ
+* IBM Developer Extension for VS Code: https://youtu.be/JmrLaLRRQSk
+* Deploy Source Code with Code Engine: https://youtu.be/MNx9gTWD6h8
+
+### Tutorials
+
+* Text Analysis with Code Engine: https://www.ibm.com/cloud/blog/tutorial-text-analysis-with-ibm-cloud-code-engine

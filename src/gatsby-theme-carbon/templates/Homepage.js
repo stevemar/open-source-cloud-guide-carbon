@@ -1,38 +1,58 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+import { HomepageBanner, FeatureCard, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
+import BannerImage from '../../images/banner.jpg';
 
-import Carbon from '../../images/carbon.jpg';
-
-const FirstLeftText = () => <p>Goals of the Guide</p>;
+const FirstLeftText = () => <h2>About this guide
+  <a className={calloutLink}
+      href="/about">
+      See the about page →
+  </a>
+</h2>;
 
 const FirstRightText = () => (
-  <p>
-    <ol>
-      <li>1. Comprehensive learning for hybrid cloud and multicloud developers.</li>
-      <li>2. An agnostic view of how various clouds are using open source in their offerings.</li>
-    </ol>
-  </p>
+  <p> This guide will provide comprehensive learning for hybrid cloud and multicloud developers.
+  As well as an agnostic view of how various clouds are using open source in their offerings.</p>
 );
 
-const SecondLeftText = () => <p>O'Reilly survey</p>;
+const SecondLeftText = () => <p>
+  <h3>Survey says ...</h3><br></br>
+  <p>According to our <strong>O'Reilly Survey</strong>, Developers who want to develop cloud applications should work on honing their OSS skills (which underly every major cloud platform) instead of only focusing on building skills for a proprietary cloud.</p>
+  <a className={calloutLink}
+      href="https://developer.ibm.com/blogs/oreilly-open-source-skill-survey-blog">
+      Read the full survey →
+  </a>
+</p>;
 
 const SecondRightText = () => (
-  <p>
-    <i>Developers who want to develop cloud applications should work on honing their OSS skills (which underly every major cloud platform) instead of only focusing on building skills for a proprietary cloud.</i>
-    <a
-      className={calloutLink}
-      href="https://developer.ibm.com/blogs/oreilly-open-source-skill-survey-blog">
-      O'Reilly survey →
-    </a>
-  </p>
+  <>
+  <p><strong>94%</strong> of respondents rate open source software equal to or better than proprietary software.</p>
+  <br></br>
+  <p><strong>70%</strong> of respondents prefer choosing a cloud provider that is based on open source.</p>
+  <br></br>
+  <p><strong>65%</strong> of respondents agree completely that contributions to open source projects impress potential employers and result in better professional opportunities.</p>
+  <br></br>
+  </>
 );
 
 const BannerText = () => <h1>Open Source Cloud Guide</h1>;
 
 const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
+  Banner: (
+    <>
+      <FeatureCard
+        color="dark"
+        href="/about"
+        title="Start the guide"
+        subTitle="Ready to roll?"
+        actionIcon="arrowRight"
+        className="homepage-feature"
+      >
+        <HomepageBanner renderText={BannerText} image={BannerImage} />
+      </FeatureCard>
+    </>
+  ),
   FirstCallout: (
     <HomepageCallout
       backgroundColor="#030303"

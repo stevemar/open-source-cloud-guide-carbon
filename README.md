@@ -30,6 +30,8 @@ Update the following pages:
 * [Containers](src/pages/guides/containers.mdx)
 * [Databases](src/pages/guides/databases.mdx)
 * [Big Data](src/pages/guides/big-data.mdx)
+* [Serving APIs](src/pages/guides/serving-apis.mdx)
+* [Teaming](src/pages/guides/teaming.mdx) 
 
 ## How do I contribute?
 
@@ -50,8 +52,10 @@ Requirement:
 Build the pages
 
 ```bash
-yarn build:prefix
+yarn build
 ```
+
+> NOTE: When deploying make use of gatby's `--prefix-paths` option by building with: `yarn build:prefix`
 
 View the site
 
