@@ -29,6 +29,7 @@ Update the following pages:
 * [AI](src/pages/guides/ai.mdx)
 * [Containers](src/pages/guides/containers.mdx)
 * [Databases](src/pages/guides/databases.mdx)
+* [Big Data](src/pages/guides/big-data.mdx)
 * [Serving APIs](src/pages/guides/serving-apis.mdx)
 * [Teaming](src/pages/guides/teaming.mdx) 
 
