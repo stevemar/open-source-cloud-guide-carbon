@@ -7,7 +7,11 @@ import BannerImage from '../../images/banner.jpg';
 const FirstLeftText = () => <h2>About this guide
   <a className={calloutLink}
       href="/about">
-      See the about page →
+      See the about page
+      <svg fill="#0062FF" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M18 6L16.6 7.4 24.1 15 3 15 3 17 24.1 17 16.6 24.6 18 26 28 16z"></path>
+        <title>Arrow right</title>
+      </svg>
   </a>
 </h2>;
 
@@ -16,23 +20,26 @@ const FirstRightText = () => (
   As well as an agnostic view of how various clouds are using open source in their offerings.</p>
 );
 
-const SecondLeftText = () => <p>
+const SecondLeftText = () => (
+  <>
   <h3>Survey says ...</h3><br></br>
   <p>According to our <strong>O'Reilly Survey</strong>, Developers who want to develop cloud applications should work on honing their OSS skills (which underly every major cloud platform) instead of only focusing on building skills for a proprietary cloud.</p>
   <a className={calloutLink}
       href="https://developer.ibm.com/blogs/oreilly-open-source-skill-survey-blog">
-      Read the full survey →
+      Read the full survey
+      <svg fill="#FFFFFF" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M18 6L16.6 7.4 24.1 15 3 15 3 17 24.1 17 16.6 24.6 18 26 28 16z"></path>
+        <title>Arrow right</title>
+      </svg>
   </a>
-</p>;
+  </>
+);
 
 const SecondRightText = () => (
   <>
-  <p><strong>94%</strong> of respondents rate open source software equal to or better than proprietary software.</p>
-  <br></br>
-  <p><strong>70%</strong> of respondents prefer choosing a cloud provider that is based on open source.</p>
-  <br></br>
-  <p><strong>65%</strong> of respondents agree completely that contributions to open source projects impress potential employers and result in better professional opportunities.</p>
-  <br></br>
+  <div class="stats"><p class="percentage">94%</p><p class="desc"> of respondents rate open source software equal to or better than proprietary software.</p></div>
+  <div class="stats"><p class="percentage">70%</p><p class="desc">of respondents prefer choosing a cloud provider that is based on open source.</p></div>
+  <div class="stats"><p class="percentage">65%</p><p class="desc">of respondents agree completely that contributions to open source projects impress potential employers and result in better professional opportunities.</p></div>
   </>
 );
 
