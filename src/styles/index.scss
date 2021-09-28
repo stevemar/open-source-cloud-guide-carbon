@@ -1,95 +1,95 @@
 // This is where your application styles could go.
-a {
+.container--homepage a {
   text-decoration: none;
 }
-h2 a {
+.container--homepage h2 a {
   color: #49A3F8 !important;
 }
-a svg {
+.container--homepage a svg {
   vertical-align: middle;
   display: inline-block;
   margin-left: 5px;
 }
 
-.bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile{
+.container--homepage .bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile{
   margin-left: 24.24%
 }
-.bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile,
-.bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile:hover, {
+.container--homepage .bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile,
+.container--homepage .bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile:hover, {
   background-image: linear-gradient(to right, #357AF6, #357AF6, #9A5ACB) !important;
 }
-.bx--feature-card.homepage-feature .bx--aspect-ratio--2x1::before {
+.container--homepage .bx--feature-card.homepage-feature .bx--aspect-ratio--2x1::before {
   padding-top: 30%;
 }
-#main-content > .bx--grid:nth-of-type(4) {
+.container--homepage  > .bx--grid:nth-of-type(4) {
   background-image: linear-gradient(to right, #357AF6, #357AF6, #9A5ACB) !important;
 }
-#main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
+.container--homepage  > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
   max-width: 300px;
 }
-#main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf a {
+.container--homepage  > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf a {
   text-decoration: underline;
 }
-.stats {
+.container--homepage .stats {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 2rem;
 }
-.stats:first-of-type {
+.container--homepage .stats:first-of-type {
   margin-top: 4rem;
 }
-.stats .percentage {
+.container--homepage .stats .percentage {
   font-size: 64px;
   font-weight: 600;
   margin-right: 3rem;
 }
-.stats .desc {
+.container--homepage .stats .desc {
   font-size: 1.5rem;
 }
-.bx--grid.Main-module--main--24PSV img {
+.container--homepage .bx--grid.Main-module--main--24PSV img {
   margin-left: auto;
   margin-right: auto;
   height: 100px;
 }
-.bx--grid.Main-module--main--24PSV p {
+.container--homepage .bx--grid.Main-module--main--24PSV p {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 42rem) {
-  .bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile{
+  .container--homepage .bx--feature-card.homepage-feature .bx--aspect-ratio--object .bx--tile{
     margin-left: 0;
   }
-  .Banner-module--grid--1aCPQ {
+  .container--homepage .Banner-module--grid--1aCPQ {
     height: 100%;
     max-height: none !important;
   }
-  .bx--feature-card__link > .bx--row:nth-of-type(1) {
+  .container--homepage .bx--feature-card__link > .bx--row:nth-of-type(1) {
     max-height: 500px;
   }
-  #main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
+  .container--homepage > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
     max-width: none;
   }
 }
 @media screen and (max-width: 28rem) {
-  .stats{
+  .container--homepage .stats{
     display: block;
   }
 }
 
 
 @media screen and (min-width: 42rem) and (max-width: 58rem) {
-  h1 {
+  .container--homepage h1 {
     margin-bottom: 12rem;
   }
 }
 @media screen and (min-width: 42rem) and (max-width: 66rem) {
-  #main-content > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
+  .container--homepage  > .bx--grid:nth-of-type(4) .Callout-module--firstColumn--W_mMf p {
     max-width: 90%;
   }
-  .stats{
+  .container--homepage .stats{
     display: block;
   }
 }
