@@ -49,15 +49,23 @@ Requirement:
 
 > NOTE: You can use [n](https://www.npmjs.com/package/n) to switch between Node versions.
 
+Clean files and build with dev mode. Open a browser to `localhost:8000`.
+
+```bash
+yarn clean; yarn dev
+```
+
+## Deploy
+
 Build the pages
 
 ```bash
-yarn build
+yarn build:prefix
 ```
 
-> NOTE: When deploying make use of gatby's `--prefix-paths` option by building with: `yarn build:prefix`
+> NOTE: When deploying make use of gatby's `--prefix-paths` option by building with: `yarn build:prefix` as opposed to `yarn build`
 
-View the site
+View the site, open a browser to `localhost:9000`.
 
 ```bash
 yarn serve
