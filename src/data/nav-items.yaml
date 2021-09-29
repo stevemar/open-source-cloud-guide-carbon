@@ -7,7 +7,7 @@
   hasDivider: true
 - title: Guides
   pages:
-    - path: /about
+    - path: /guides
 - title: Containers
   pages:
     - path: /guides/containers
