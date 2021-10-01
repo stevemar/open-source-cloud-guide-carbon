@@ -42,7 +42,7 @@
 .container--homepage .stats .percentage {
   font-size: 64px;
   font-weight: 600;
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 .container--homepage .stats .desc {
   font-size: 1.5rem;
@@ -92,4 +92,13 @@
   .container--homepage .stats{
     display: block;
   }
+}
+
+.sidenav-list .bx--side-nav__item:nth-of-type(4) .bx--side-nav__link-text,
+.sidenav-list .bx--side-nav__item:nth-of-type(5) .bx--side-nav__link-text,
+.sidenav-list .bx--side-nav__item:nth-of-type(6) .bx--side-nav__link-text,
+.sidenav-list .bx--side-nav__item:nth-of-type(7) .bx--side-nav__link-text,
+.sidenav-list .bx--side-nav__item:nth-of-type(8) .bx--side-nav__link-text,
+.sidenav-list .bx--side-nav__item:nth-of-type(9) .bx--side-nav__link-text {
+  margin-left: 1rem;
 }
