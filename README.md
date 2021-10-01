@@ -1,18 +1,20 @@
 # Open Source Cloud Guide
 
-A guide, about how open source software.
+A guide demonstrating how major cloud vendors use open source in their offerings
 
 ## Mission statement
 
-Our goal is to convince the reader that open source software is essential to building cloud applications, whether they be on public cloud, private cloud, hybrid cloud, or multi-cloud.
+Our goal is to show readers that open source software is essential to building cloud applications, whether they be on public cloud, private cloud, hybrid cloud, or multi-cloud.
 
 ## Background
 
-The rise of cloud computing was built off of open source projects, and open source projects are essential for building cloud applications.
+Over the past two decades, the rise of cloud technologies and the proliferation of open source software have developed in tandem, with open source software now underpinning all major clouds. A [2020 O'Reilly Survey](https://www.ibm.com/downloads/cas/PXR1GGZN) highlights how hiring managers are looking for developers who have open source development, even more than skills related to a single proprietary cloud. The [2021 Open Source Jobs Report](https://www.linuxfoundation.org/resources/publications/open-source-jobs-report-2021/?SSAID=862413&sscid=91k5_w9w4l) from the Linux Foundation echoed this desire for developers who are skilled in open source software development.
+
+With that backdrop, we decided to create a guide that highlights how cloud providers are using open source in their offerings and to offer guidance on where you can go to gain skills.
 
 ## Who is this for?
 
-Largely, this guide is for software developers and technical folks wanting to know the landscape of open source software and their prevelance at major cloud providers.
+Largely, this guide is for software developers and technical folks wanting to know the landscape of open source software and their prevalence at major cloud providers.
 
 ## What is this not?
 
@@ -29,9 +31,9 @@ Update the following pages:
 * [AI](src/pages/guides/ai.mdx)
 * [Containers](src/pages/guides/containers.mdx)
 * [Databases](src/pages/guides/databases.mdx)
-* [Big Data](src/pages/guides/big-data.mdx)
+* [Big data](src/pages/guides/big-data.mdx)
 * [Serving APIs](src/pages/guides/serving-apis.mdx)
-* [Teaming](src/pages/guides/teaming.mdx) 
+* [Teaming](src/pages/guides/teaming.mdx)
 
 ## How do I contribute?
 
