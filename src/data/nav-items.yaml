@@ -8,21 +8,21 @@
 - title: Guides
   pages:
     - path: /guides
+- title: Artificial Intelligence
+  pages:
+    - path: /guides/ai
+- title: APIs
+  pages:
+    - path: /guides/apis
+- title: Big Data
+  pages:
+    - path: /guides/big-data
 - title: Containers
   pages:
     - path: /guides/containers
 - title: Databases
   pages:
     - path: /guides/databases
-- title: Big Data
-  pages:
-    - path: /guides/big-data
-- title: Artificial Intelligence
-  pages:
-    - path: /guides/ai
-- title: APIs
-  pages:
-    - path: /guides/serving-apis
 - title: Teaming
   pages:
     - path: /guides/teaming
