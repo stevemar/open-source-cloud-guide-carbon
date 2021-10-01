@@ -29,15 +29,20 @@ This guide will not:
 Update the following pages:
 
 * [AI](src/pages/guides/ai.mdx)
+* [APIs](src/pages/guides/serving-apis.mdx)
+* [Big Data](src/pages/guides/big-data.mdx)
 * [Containers](src/pages/guides/containers.mdx)
 * [Databases](src/pages/guides/databases.mdx)
-* [Big data](src/pages/guides/big-data.mdx)
-* [Serving APIs](src/pages/guides/serving-apis.mdx)
 * [Teaming](src/pages/guides/teaming.mdx)
 
 ## How do I contribute?
 
 Create a PR!
+
+## How do I create a new guide?
+
+1. Create a new file in [guides](src/pages/guides) based on the other files in that directory.
+2. Update [nav-items.yaml](src/data/nav-items.yaml) to include the new file.
 
 ## Where can I view the guide?
 
